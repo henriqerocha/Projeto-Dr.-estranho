@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fundo-img{
+    background-image: url('img/capa.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px;
+    text-align: center;
+    padding: 50px;
+}
+h1, h2{
+    color: white;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+}
+h1{
+    background-color: black;
+}
+h2{
+    background-color: red;
+}
+.informacoes h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.informacoes{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.bot-img{
+    background-image: url('/img/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+
+}
+.sinopse{
+    text-align: justify;
+    width: 700px;
+    margin: 20px auto;
+}
+.sinopse h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.sinopse p{
+    letter-spacing: 1.5px;
+}
+.sinopse a{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
